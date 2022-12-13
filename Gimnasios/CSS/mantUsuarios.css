@@ -1,0 +1,50 @@
+﻿body {
+    background: url('../imagenes/risen-wang-20jx9b35r_m-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mydatagrid {
+    margin: 20px;
+    width: 80%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #000;
+    font-family: Arial;
+    color: White;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: center;
+}
+
+    .rows:hover {
+        background-color: #DC3545;
+        color: #fff;
+    }
+
+
+    .mydatagrid a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #fff;
+        color: #000;
+    }
+
+
+.mydatagrid td {
+    padding: 5px;
+}
+
+.mydatagrid th {
+    padding: 5px;
+}
